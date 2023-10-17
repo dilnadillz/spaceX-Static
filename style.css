@@ -1,0 +1,141 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: black;
+    color: white;
+}
+a{
+    color: #fff;
+}
+svg{
+    fill: white;
+}
+header{
+    display: flex;
+    align-items: center;
+    padding: 25px 50px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+header svg{
+    width: 170px;
+}
+header a.logo{
+    margin-right: 40px;
+}
+.center-nav a{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 0 10px;
+
+}
+.right-nav{
+    position: fixed;
+    right: 0;
+    top: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    padding: 0 10px;
+}
+.right-nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0 70px;
+}
+.butn{
+    position: absolute;
+    right: 0;
+    top: 30;
+    color: white;
+    background-color: transparent;
+    border: 0;
+    transform: rotate(90deg);
+    padding: 40px;
+}
+.sec1{
+    width:auto;
+    height: 660px;
+    background-color: black;
+    display: flex;
+    background-image: url(image/Psyche_outside39abmound_IMG_8486_desktop_f5072ad69b.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 50px 8%;
+    
+}
+.content{
+    position: absolute;
+    bottom: 17%;
+    left: 40px;
+}
+.content h2{
+    font-size: 35px;
+    margin: 0;
+}
+.content h3{
+    margin: 0 0 10px;
+}
+.content a{
+    border: 2px solid white;
+    display: inline-block;
+    padding: 15px 28px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.sec2{
+    width:auto;
+    height: 660px;
+    background-color: black;
+    display: flex;
+    background-image: url(image/Star6_22_101323_DSC_6121_desktop_fd6c6de4b5.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 50px 8%;
+}
+
+.sec3{
+    width:auto;
+    height: 660px;
+    background-color: black;
+    display: flex;
+    background-image: url(image/Crew_6_Desktop_9857f5c2f0.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 50px 8%;
+}
+.sec4{
+    width:auto;
+    height: 660px;
+    background-color: black;
+    display: flex;
+    background-image: url(image/STARSHIP_Testflight_DESKTOP_2b3bea613a.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 50px 8%;
+}
+footer{
+    padding: 30px;
+    font-size: 12px;
+}
+footer nav{
+    text-align: center;
+}
+footer nav a{
+    padding: 0 14px;
+    text-decoration: none;
+}
